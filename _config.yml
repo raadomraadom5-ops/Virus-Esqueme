@@ -1,0 +1,6 @@
+# GitHub Pages Theme Configuration
+theme: jekyll-theme-hacker
+title: Virus Scheme Lab ☣️
+description: VBScript testing environment for video creators and security enthusiasts.
+show_downloads: true
+google_analytics:
