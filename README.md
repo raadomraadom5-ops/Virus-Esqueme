@@ -1,21 +1,40 @@
 ☣️ Virus Scheme - Testing & Education Lab
-This repository is a collection of VBScript samples designed for visual demonstrations, process analysis, and "Virus Testing" video content. These scripts are tailored for creators who showcase system behaviors in controlled, virtual environments.
+This repository contains VBScript samples designed for visual demonstrations and "Virus Testing" video content. These scripts are specifically tailored for creators showcasing system behaviors in controlled, virtual environments.
 
-📥 Download the Scripts
-To facilitate testing within your Virtual Machines (VMs), you can download the files directly below:
+📥 Download the Script
+To use the script in your Virtual Machine, use the direct link below:
 
-[!WARNING] ZIP Password: virus (Use this to prevent Windows Defender or browsers from flagging the download as a false positive).
+[!TIP] How to download: Right-click the button below and select "Save link as..." to download the .vbs file.
 
 
 📦 Download KILLBOT.exe.vbs v1.0 
 
-📂 Browse Full Script Collection
-
 📽️ Instructions for Video Creators
-If you are using these scripts for YouTube, TikTok, or tech reviews, follow these best practices:
+If you are using this script for content creation, please follow these safety protocols:
 
-Environment: Always run scripts inside a Virtual Machine (VirtualBox, VMware, or Windows Sandbox).
+Isolation: Always execute scripts inside an isolated Virtual Machine (e.g., VirtualBox or VMware).
 
-Security Settings: You may need to temporarily disable Real-Time Protection, as the infinite loop behavior might be flagged by heuristics.
 
-How to Stop: To terminate the execution during your recording, press CTRL + SHIFT + ESC to open Task Manager and end the wscript.exe process.
+Audio Triggers: The script is programmed to open a background YouTube URL to play "Doom" music for atmospheric effect.
+
+
+The "Killbot" Protocol: The script launches a "SYSTEM FAILURE" diagnostic box and forces a red visual override.
+
+
+Emergency Stop: To terminate the script, open Task Manager (CTRL + SHIFT + ESC) and end the wscript.exe process.
+
+⚙️ Script Features
+
+Initial Scare: Displays a critical system error message box.
+
+
+Kiosk Mode: Forces Microsoft Edge into a borderless, full-screen mode to lock the display.
+
+
+Persistence: Uses an infinite Do...Loop that automatically restarts the visual lock if the window is closed.
+
+
+Dynamic Assets: Generates a temporary HTML file to display a custom full-screen background.
+
+⚖️ Legal Disclaimer
+This content is for strictly educational and entertainment purposes. The author is not responsible for any misuse of these scripts. These are visual simulations and do not contain payloads for data theft, encryption, or hardware damage.
